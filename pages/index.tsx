@@ -154,7 +154,7 @@ const Home: NextPage = () => {
                     photo={project.photo}
                     languages={project.languages}
                     link={project.link}
-                    source={project.source}
+                    // source={project.source}
                   />
                 ))}
               </SimpleGrid>

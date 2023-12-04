@@ -18,16 +18,16 @@ socials:
 projects:
   - name: Pacer
     description: Pacer App
-    link: https://ivanchen.dev
+    link: https://apps.apple.com/in/developer/pace-health-pte-ltd/id1649050676
     source: https://github.com/anivanchen/portfolio-generator
-    languages: ["TypeScript", "React Native", "Django Rest", "AWS"]
-    photo: portfolio-generator.png
+    languages: ["TypeScript", "React Native", "Django Rest", "AWS", "PostgreSQL", "CICD with GitLab"]
+    photo: pacerapp.png
   - name: SPA Automotive
-    description: SPA Automotive
-    link: https://ivanchen.dev
+    description: Smart Power Auto
+    link: https://smartpowerautomotive.com/cars/sale
     source: https://github.com/anivanchen/portfolio-generator
-    languages: ["TypeScript", "Next.js", "React", "Chakra UI"]
-    photo: portfolio-generator.png
+    languages: ["Django Rest", "JavaScript", "PostgreSQL", "AWS", "Terraform"]
+    photo: spa-vehicle.png
 
 skills:
   - language: Python
