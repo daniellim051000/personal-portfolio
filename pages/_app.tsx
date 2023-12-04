@@ -7,7 +7,7 @@ import theme from "../config/theme";
 
 function App({ Component, pageProps }: AppProps) {
   
-    const name = "Ivan Chen";
+    const name = "Daniel Lim";
 
     return (
         <ChakraProvider theme={theme}>
@@ -15,7 +15,7 @@ function App({ Component, pageProps }: AppProps) {
                 <title>{name + "'s Portfolio"}</title>
                 <meta
                     name="description"
-                    content="Ivan Chen's portfolio, built with Next.js and Typescript."
+                    content="Daniel Lim's portfolio, built with Next.js and Typescript."
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

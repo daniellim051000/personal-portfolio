@@ -1,45 +1,71 @@
-# See ./config.example.yml for an example config file
-# Do not leave any fields blank.
-
 personal:
-  name: 
-  bio: 
-  company: 
-  location: 
-  photo:  
+  name: Daniel Lim
+  bio: Full Stack Developer
+  company: Pace Health Pte Ltd
+  location: Kuala Lumpur, Malaysia
+  photo: https://avatars.githubusercontent.com/u/64762752?v=4
 
 contact:
-  email: 
-  phone: 
+  email: daniellim0510@gmail.com
+  phone: +60184024139
 
 socials: 
   - platform: github
-    user: 
+    user: daniellim051000
   - platform: linkedin
-    user: 
-  - platform: facebook
-    user: 
-  - platform: instagram
-    user: 
-  - platform: twitter
-    user: 
+    user: zheng-yu-l
 
 projects:
-  - name: 
-    description: 
-    link: 
-    source: 
-    languages: 
-    photo: 
+  - name: Pacer
+    description: Pacer App
+    link: https://ivanchen.dev
+    source: https://github.com/anivanchen/portfolio-generator
+    languages: ["TypeScript", "React Native", "Django Rest", "AWS"]
+    photo: portfolio-generator.png
+  - name: SPA Automotive
+    description: SPA Automotive
+    link: https://ivanchen.dev
+    source: https://github.com/anivanchen/portfolio-generator
+    languages: ["TypeScript", "Next.js", "React", "Chakra UI"]
+    photo: portfolio-generator.png
 
 skills:
-  - language: 
-    level: 
+  - language: Python
+    level: 20
+
     
-experience:
-  - company: 
-    title: 
-    time: 
-    description: 
-    work:
-      -  
+experiences:
+  - company: Pace Health Pte Ltd
+    title: Full Stack Developer
+    time: April 2023 - Current
+    description: End-to-end development across multiple domains including Frontend, Backend, DevOps, and Project Management within a dynamic team environment.
+    work: 
+      - Spearheaded the development of a robust and scalable backend infrastructure utilizing Django Rest, ensuring seamless data flow and API integration.
+      - Orchestrated the design and implementation of a versatile frontend using React Native and TypeScript, enhancing user experience and interactivity.
+      - Development of new features aligned with business decisions, leveraging Docker for efficient containerization and scalability.
+      - Managed project lifecycle activities, including sprint planning, progress tracking, and stakeholder communication, optimizing team efficiency and meeting organizational objectives.
+      - Engineered CI/CD pipelines using GitLab Runner, optimizing development workflows and ensuring efficient code integration and deployment.
+      - Leveraged AWS services and Terraform for cloud infrastructure management, enhancing scalability and performance of applications.
+      - Implemented Scrum methodology to foster collaboration, transparency, and iterative development processes within the team.
+      - Initiated and led a Proof of Concept (POC) project, exploring the capabilities of Three.js, contributing to the company's technological exploration and innovation.
+
+  - company: Infront Consulting Group Sdn Bhd
+    title: Full Stack Developer / Business Analyst
+    time: July 2021 - March 2023
+    description: End-to-end development across multiple domains including Frontend, Backend, DevOps, and Project Management within a dynamic team environment.
+    work: 
+      - Led a cross-functional team comprising in 8 members in development of web and mobile application utilising Django Rest Framework and React Native
+      - Oversaw end to end project lifecycles, ensuring timely deliveries and orchestrating seemless integration of Azure Pipelines to Azure Kubernetes Service for CICD
+      - Individually managed a Proof of Concept focused on data extraction to Azure Data Lake, showcasing expertise in data handling and cloud architecture.
+      - Led a team of 4 members in a proof of concept focused on software application utilising Django and Twilio, facilitating automation in message reception and processing.
+      - Collaborated closely with stakeholders to understand project requirements, devise technical strategies, and ensure alignment with business objectives.
+      - Mentored and guided team members, fostering skill development, and a collaborative work environment, resulting in enhanced productivity and project outcomes.
+
+  - company: Sunway Metacloud Sdn Bhd
+    title: Intern
+    time: April 2023 - Current
+    description: Contributed to quality assurance efforts and gained exposure to software development technologies under the mentorship of senior developers.
+    work: 
+      - Collaborated with the team to conduct comprehensive testing of web application, focusing on UI/UX, bug identification and ensuring alignment with business requirements.
+      - Played a pivotal role in ensuring the quality and usability of application through rigorous testing procedures and feedback implementation
+      - Acquired hands-on experience in software development by learning from senior developers, familiarising oneself with AngularJS, Laravel, Git, Docker, Ubuntu and Jenkins
