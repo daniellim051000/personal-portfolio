@@ -30,8 +30,48 @@ projects:
     photo: spa-vehicle.png
 
 skills:
+  - language: Django Rest Framework
+    level: 95
+  - language: RESTful API
+    level: 90
   - language: Python
-    level: 20
+    level: 95
+  - language: Docker
+    level: 85
+  - language: AWS
+    level: 90
+  - language: Microsoft Azure
+    level: 80
+  - language: Kubernetes
+    level: 85
+  - language: DevOps
+    level: 85
+  - language: Git
+    level: 90
+  - language: Confluence & Jira
+    level: 80
+  - language: React Native
+    level: 75
+  - language: React
+    level: 80
+  - language: GitLab Runner
+    level: 75
+  - language: PostgreSQL
+    level: 85
+  - language: Terraform
+    level: 80
+  - language: Jenkins
+    level: 80
+  - language: Flutter
+    level: 75
+  - language: Linux
+    level: 85
+  - language: PHP
+    level: 80
+  - language: HTML & CSS
+    level: 85
+  - language: JavaScript
+    level: 85
 
     
 experiences:
