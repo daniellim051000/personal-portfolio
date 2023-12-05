@@ -163,27 +163,7 @@ const Home: NextPage = () => {
                 ))}
               </SimpleGrid>
             </Flex>
-            <Flex
-              flexDirection="column"
-              justify="top"
-              align="left"
-              padding={6}
-              width="100%"
-              height="100%"
-              backgroundColor="gray.100"
-              rounded={8}
-              mt={8}
-            >
-              <Heading>My Skills</Heading>
-              <Text color="gray.500">Breakdown of my skills.</Text>
-              {Skills.map((skill: any) => (
-                <Skill
-                  key={skill.language}
-                  language={skill.language}
-                  level={skill.level}
-                />
-              ))}
-            </Flex>
+
             <Flex
               flexDirection="column"
               justify="top"
@@ -209,6 +189,27 @@ const Home: NextPage = () => {
                   />
                 ))}
               </SimpleGrid>
+            </Flex>
+            <Flex
+              flexDirection="column"
+              justify="top"
+              align="left"
+              padding={6}
+              width="100%"
+              height="100%"
+              backgroundColor="gray.100"
+              rounded={8}
+              mt={8}
+            >
+              <Heading>My Skills</Heading>
+              <Text color="gray.500">Breakdown of my skills.</Text>
+              {Skills.map((skill: any) => (
+                <Skill
+                  key={skill.language}
+                  language={skill.language}
+                  level={skill.level}
+                />
+              ))}
             </Flex>
           </Flex>
           <Footer />
