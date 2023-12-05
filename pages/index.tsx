@@ -107,7 +107,11 @@ const Home: NextPage = () => {
               <HStack key={social.platform}>
                 {getSocialIcon(social.platform)}
                 <NextLink
-                  href={"https://" + social.platform + ".com/" + social.user}
+                  href={
+                    social.platform === "linkedin"
+                      ? `https://${social.platform}.com/in/${social.user}`
+                      : `https://${social.platform}.com/${social.user}`
+                  }
                   passHref
                 >
                   <Link>{social.user}</Link>
